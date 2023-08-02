@@ -6,7 +6,7 @@ dev_data=../data/covid19/raw_val_all_onecol.csv
 test_data=../data/covid19/raw_test_all_onecol.csv
 out_dir=./model/
 
-for seed in 3
+for seed in 4
 do
     echo "Start training on seed ${seed}......"
     for dataset in "covid19"
@@ -22,7 +22,7 @@ dev_data=../data/argmin/raw_val_all_onecol.csv
 test_data=../data/argmin/raw_test_all_onecol.csv
 out_dir=./model/
 
-for seed in 3
+for seed in 4
 do
     echo "Start training on seed ${seed}......"
     for dataset in "argmin"
@@ -38,7 +38,7 @@ dev_data=../data/pstance/raw_val_all_onecol.csv
 test_data=../data/pstance/raw_test_all_onecol.csv
 out_dir=./model/
 
-for seed in 3
+for seed in 4
 do
     echo "Start training on seed ${seed}......"
     for dataset in "pstance"
