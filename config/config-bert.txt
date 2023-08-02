@@ -1,0 +1,7 @@
+model_select:Bertweet
+bert_lr:2e-5
+fc_lr:1e-3
+batch_size:32
+total_epochs:5
+max_tok_len:128
+dropout:0.
