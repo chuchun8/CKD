@@ -167,6 +167,7 @@ def run_classifier():
                             preds, loss_val = model_utils.model_preds(valloader, updater.model, device, loss_function)
                             avg_val_loss = sum(loss_val)/len(y_val)
                             f1_average = evaluation.compute_f1(preds, y_val, dataset)
+                            preds, _ = model_utils.model_preds(testloader, updater.model, device, loss_function)
                         
                         # save model weights
                         if best_val_loss > avg_val_loss:
