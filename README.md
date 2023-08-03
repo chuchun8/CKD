@@ -23,6 +23,7 @@ BERTweet is used as our baseline for in this paper. For our proposed calibrated 
 bash train.sh > ckd.log
 ```
 Specifically, in train.sh,
+
 `-calib` indicates that we run with CKD (temperature is dynamically updated in each generation).
 
 `-anneal` indicates that we run our experiments with teacher annealing.
